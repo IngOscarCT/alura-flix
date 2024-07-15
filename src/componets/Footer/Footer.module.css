@@ -1,0 +1,73 @@
+/* Estilos para el pie de página */
+.footer {
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    padding: 1.1em 10em;
+    /* Padding superior/inferior de 1.1em y lateral de 10em */
+    background-color: var(--negroIntens);
+    /* Color de fondo usando una variable CSS */
+    border-top: 4px solid var(--luz);
+    /* Borde superior de 4px con el color definido por la variable CSS */
+}
+
+/* Estilos para el contenedor del logo */
+.logoContainer {
+    height: 55px;
+    /* Altura fija de 55px */
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+}
+
+/* Estilos para la imagen dentro del contenedor del logo */
+.logoContainer img {
+    height: 40px;
+    /* Altura fija de 40px */
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1em 5em;
+        /* Ajusta el padding lateral a 5em */
+    }
+
+    .logoContainer {
+        height: 45px;
+        /* Reduce la altura a 45px */
+    }
+
+    .logoContainer img {
+        height: 35px;
+        /* Reduce la altura de la imagen a 35px */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .footer {
+        padding: 0.5em 1em;
+        /* Ajusta el padding lateral a 1em y superior/inferior a 0.5em */
+        flex-direction: column;
+        /* Cambia la dirección del flexbox a columna */
+    }
+
+    .logoContainer {
+        height: 40px;
+        /* Reduce la altura a 40px */
+        margin-bottom: 10px;
+        /* Añade un margen inferior de 10px para separar del contenido */
+    }
+
+    .logoContainer img {
+        height: 30px;
+        /* Reduce la altura de la imagen a 30px */
+    }
+}

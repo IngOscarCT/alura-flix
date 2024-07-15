@@ -1,0 +1,99 @@
+/* Estilos para el banner */
+.banner {
+    width: 100%;
+    /* El ancho es del 100% del contenedor padre */
+    height: 100vh;
+    /* La altura es el 100% de la altura de la ventana */
+    background-image: url("./bannerBackground.png");
+    /* Imagen de fondo del banner */
+    position: relative;
+    /* Posición relativa para permitir posicionamiento absoluto de elementos hijos */
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+}
+
+/* Estilos para el botón de categoría */
+.buttonCategoria {
+    position: absolute;
+    /* Posición absoluta para colocar el botón dentro del banner */
+    top: 8px;
+    /* Distancia desde el borde superior */
+    left: 4px;
+    /* Distancia desde el borde izquierdo */
+    width: auto;
+    /* El ancho se ajusta automáticamente */
+    height: 92px;
+    /* Altura fija de 92px */
+    border: 2px solid var(--navColor);
+    /* Borde de 2px sólido con color definido por una variable CSS */
+    background-color: var(--navColor);
+    /* Fondo utilizando una variable CSS */
+    border-radius: 10px;
+    /* Bordes redondeados de 10px */
+    padding: 8px;
+    /* Espaciado interno de 8px */
+    margin: 10px;
+    /* Espaciado externo de 10px */
+    text-align: center;
+    /* Texto centrado horizontalmente */
+    font-size: 24px;
+    /* Tamaño de fuente de 24px */
+}
+
+/* Contenedor para las cards dentro del banner */
+.cardContainer {
+    display: flex;
+    /* Utiliza flexbox para disposición horizontal de las cards */
+    justify-content: center;
+    /* Centra la card dentro del contenedor */
+    width: 100%;
+    /* Ancho del 100% del contenedor padre */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .banner {
+        height: 70vh;
+        /* Reduce la altura del banner para tabletas */
+    }
+
+    .buttonCategoria {
+        height: 70px;
+        /* Reduce la altura del botón de categoría */
+        font-size: 20px;
+        /* Reduce el tamaño de la fuente */
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        /* Cambia la dirección de las cards a columna */
+        align-items: center;
+        /* Centra las cards horizontalmente */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .banner {
+        height: 50vh;
+        /* Reduce la altura del banner para móviles */
+    }
+
+    .buttonCategoria {
+        height: 50px;
+        /* Reduce la altura del botón de categoría */
+        font-size: 16px;
+        /* Reduce el tamaño de la fuente */
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        /* Mantiene la dirección de las cards en columna */
+        align-items: center;
+        /* Centra las cards horizontalmente */
+    }
+}

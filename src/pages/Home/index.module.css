@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+/* Estilo del contenedor flex */
+.container {
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+}
+
+/* Media query para tablets y móviles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        /* Cambia a disposición en columna para pantallas pequeñas */
+    }
+}

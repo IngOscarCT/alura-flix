@@ -1,0 +1,140 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "title": "Qué Significa Pensar Como Programador",
+      "category": "frontend",
+      "thumbnail": "https://img.youtube.com/vi/ov7vA5HFe6w/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=ov7vA5HFe6w",
+      "description": "¿Cuáles son las principales características de un programador? ¿Qué habilidades y competencias debe tener alguien que quiere seguir esa carrera? En este video Christian Velasco nos habla de las principales características de un Programador. ¿Quieres saber más?"
+    },
+    {
+      "id": "3",
+      "title": "¿Qué son las Soft Skills?",
+      "category": "DPersonal",
+      "thumbnail": "https://img.youtube.com/vi/vhwspfvI52k/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=vhwspfvI52k",
+      "description": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día. ¿Quieres saber más?"
+    },
+    {
+      "id": "c73d",
+      "title": "",
+      "category": "Selecciona la categoría",
+      "thumbnail": "",
+      "videoUrl": "",
+      "description": ""
+    },
+    {
+      "id": "90d3",
+      "title": "",
+      "category": "Selecciona la categoría",
+      "thumbnail": "",
+      "videoUrl": "",
+      "description": ""
+    },
+    {
+      "id": "c2ef",
+      "title": "",
+      "category": "Selecciona la categoría",
+      "thumbnail": "",
+      "videoUrl": "",
+      "description": ""
+    },
+    {
+      "id": "a941",
+      "title": "",
+      "category": "Selecciona la categoría",
+      "thumbnail": "",
+      "videoUrl": "",
+      "description": ""
+    },
+    {
+      "id": "b7f9",
+      "title": "",
+      "category": "Selecciona la categoría",
+      "thumbnail": "",
+      "videoUrl": "",
+      "description": ""
+    },
+    {
+      "id": "1d9f",
+      "title": "¿Qué es JavaScript?",
+      "category": "frontend",
+      "thumbnail": "https://img.youtube.com/vi/GJfOSoaXk4s/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+      "description": "JavaScript:¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips. ¿Quieres saber más?"
+    },
+    {
+      "id": "cc1e",
+      "title": "Equipo Front End",
+      "category": "frontend",
+      "thumbnail": "https://img.youtube.com/vi/rpvrLaBQwgg/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "description": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología? En este video, Jeanmarie Quijada, instructora Front End en Alura Latam te explica qué hace el equipo de Front End. ¿Quieres saber más?"
+    },
+    {
+      "id": "0522",
+      "title": "Spring Framework. ¿Qué es ?",
+      "category": "backend",
+      "thumbnail": "https://img.youtube.com/vi/t-iqt1b2qqk/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "description": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.¿Quieres saber más?"
+    },
+    {
+      "id": "0d86",
+      "title": "Cuándo usar let, var y const?",
+      "category": "frontend",
+      "thumbnail": "https://img.youtube.com/vi/PztCEdIJITY/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=PztCEdIJITY",
+      "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript. ¿Quieres saber más? "
+    },
+    {
+      "id": "7a66",
+      "title": "¿Qué es SQL y NoSQL?",
+      "category": "backend",
+      "thumbnail": "https://img.youtube.com/vi/cLLKVd5CNLc/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+      "description": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo."
+    },
+    {
+      "id": "fe80",
+      "title": "Simplificando tu código en Java: Conoce los enum",
+      "category": "backend",
+      "thumbnail": "https://img.youtube.com/vi/EoPvlE85XAQ/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+      "description": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? \nEn este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum."
+    },
+    {
+      "id": "2cab",
+      "title": "La magia detrás de Java",
+      "category": "backend",
+      "thumbnail": "https://img.youtube.com/vi/GrEO8nZzyZM/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=GrEO8nZzyZM",
+      "description": "Sabemos que el ecosistema de Java es una sopa de letras con varias siglas, y la JVM (Java Virtual Machine) es una de ellas. En este video, nuestra instructora Ellen Pimentel explica su rol y características y es más simple que la magia, es decir, de lo que uno imagina. Instructora: Ellen Pimentel. Descripción de la Instructora: Mujer negra de tez clara con cabello castaño rizado. Lleva una blusa de seda color café y al fondo hay una pared lila con luz azul. ¿Quieres saber más?"
+    },
+    {
+      "id": "5981",
+      "title": "7 Soft Skills más deseadas por las empresas ",
+      "category": "DPersonal",
+      "thumbnail": "https://img.youtube.com/vi/YhR7Zp8NUzE/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "description": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral.¿Quieres saber más?"
+    },
+    {
+      "id": "ed3e",
+      "title": "Técnicas para mejorar tu aprendizaje",
+      "category": "DPersonal",
+      "thumbnail": "https://img.youtube.com/vi/KSyqCUAr2CU/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=KSyqCUAr2CU",
+      "description": "En este video te llevaremos por las mejores técnicas para mejorar tu aprendizaje y retención. Ya sea que estés estudiando para un examen, aprendiendo una nueva habilidad, o simplemente buscando maneras de optimizar tu proceso de aprendizaje, este video te proporcionará estrategias prácticas y basadas en la ciencia para alcanzar tus objetivos. ¿Quieres saber más? "
+    },
+    {
+      "id": "3486",
+      "title": "¿Qué son las metodologias ágiles?",
+      "category": "DPersonal",
+      "thumbnail": "https://img.youtube.com/vi/6N3OkLCfK-0/mqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+      "description": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa.¿Quieres saber más?"
+    }
+  ]
+}

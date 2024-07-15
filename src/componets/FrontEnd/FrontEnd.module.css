@@ -1,0 +1,69 @@
+/* Estilos para el contenedor de la categoría */
+.category {
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    flex-direction: column;
+    /* Ordena los elementos en una columna */
+    background-color: var(--negro);
+    /* Color de fondo usando una variable CSS */
+    width: 100%;
+    /* Ocupa el 100% del ancho del contenedor padre */
+    padding: 20px;
+    /* Padding alrededor del contenido */
+    box-sizing: border-box;
+    /* Incluye padding y borde en el cálculo del ancho total */
+}
+
+/* Estilos para el título de la categoría */
+.tituloCategoria {
+    width: 432px;
+    /* Ancho fijo de 432px */
+    height: 70px;
+    /* Altura fija de 70px */
+    border: 2px solid var(--frontColor);
+    /* Borde de 2px con el color definido por la variable CSS */
+    background-color: var(--frontColor);
+    /* Color de fondo usando una variable CSS */
+    border-radius: 8px;
+    /* Bordes redondeados de 8px */
+    color: var(--blanco);
+    /* Color del texto usando una variable CSS */
+    font-weight: bold;
+    /* Texto en negrita */
+    padding: 8px;
+    /* Padding interno para separar el texto del borde */
+    margin: 5px;
+    /* Margen externo para separar de otros elementos */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-size: 48px;
+    /* Tamaño de la fuente del título */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .tituloCategoria {
+        width: 100%;
+        /* Ocupa el 100% del ancho disponible */
+        font-size: 36px;
+        /* Reduce el tamaño de la fuente a 36px */
+        height: auto;
+        /* Altura automática para ajustarse al contenido */
+        padding: 12px;
+        /* Aumenta el padding interno a 12px */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .tituloCategoria {
+        width: 100%;
+        /* Ocupa el 100% del ancho disponible */
+        font-size: 24px;
+        /* Reduce el tamaño de la fuente a 24px */
+        height: auto;
+        /* Altura automática para ajustarse al contenido */
+        padding: 10px;
+        /* Ajusta el padding interno a 10px */
+    }
+}

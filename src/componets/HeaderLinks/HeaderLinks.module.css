@@ -1,0 +1,82 @@
+/* Estilo para los enlaces */
+.link {
+    font-size: 18px;
+    /* Tamaño de fuente para enlaces */
+    font-weight: 400;
+    /* Peso de la fuente */
+    padding: 1em;
+    /* Relleno interno */
+    color: var(--gris);
+    /* Color de texto */
+    text-decoration: none;
+    /* Quitar subrayado de enlaces */
+}
+
+/* Estilo para todos los enlaces */
+a {
+    text-decoration: none;
+    /* Quitar subrayado de enlaces */
+}
+
+/* Estilo para los botones */
+button {
+    border: 2px solid var(--blanco);
+    /* Borde del botón */
+    color: var(--blanco);
+    /* Color de texto */
+    background-color: var(--negro);
+    /* Color de fondo */
+    padding: 10px 20px;
+    /* Relleno interno */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    text-transform: uppercase;
+    /* Transformación de texto a mayúsculas */
+    cursor: pointer;
+    /* Tipo de cursor */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Transiciones */
+    border-radius: 15px;
+    /* Radio de borde */
+}
+
+/* Estilo para botones al pasar el cursor */
+button:hover {
+    background-color: var(--negro);
+    /* Color de fondo al pasar el cursor */
+    color: var(--luz);
+    /* Color de texto al pasar el cursor */
+    border: var(--luz);
+    /* Color de borde al pasar el cursor */
+    box-shadow: 0 0 10px 5px var(--luz);
+    /* Sombra al pasar el cursor */
+}
+
+/* Media query para tablets y móviles */
+@media (max-width: 1024px) {
+    .link {
+        font-size: 16px;
+        /* Reducir tamaño de fuente para tablets */
+    }
+
+    button {
+        padding: 8px 16px;
+        /* Reducir relleno para botones en tablets */
+        font-size: 14px;
+        /* Reducir tamaño de fuente para botones en tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .link {
+        font-size: 14px;
+        /* Reducir tamaño de fuente para dispositivos móviles */
+    }
+
+    button {
+        padding: 8px 12px;
+        /* Reducir relleno para botones en dispositivos móviles */
+        font-size: 12px;
+        /* Reducir tamaño de fuente para botones en dispositivos móviles */
+    }
+}

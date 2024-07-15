@@ -1,0 +1,72 @@
+/* Estilo del contenedor de la tarjeta de video */
+.videoCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* Alineación en columna para todo el contenido */
+    margin: 10px;
+    width: 300px;
+    /* Ancho inicial para pantallas grandes */
+}
+
+/* Estilo de la miniatura del video */
+.videoThumbnail {
+    width: 100%;
+    /* Ocupa todo el ancho disponible del contenedor */
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    /* Línea divisoria entre imagen y contenido */
+}
+
+/* Estilo de la información del video */
+.videoInfo {
+    padding: 10px;
+    flex-grow: 1;
+    /* Permite que este contenedor crezca para ocupar el espacio restante */
+    color: var(--blanco);
+}
+
+/* Estilo de las acciones del video */
+.videoActions {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre los botones */
+    padding: 8px;
+    border-top: 1px solid var(--blanco);
+    border-color: var(--luz);
+}
+
+/* Estilo de los botones en las acciones del video */
+.videoActions button {
+    margin: 10px;
+    /* Elimina el margen que separa los botones */
+    padding: 8px 12px;
+    /* Ajusta el espaciado interno de los botones */
+    border: none;
+    background-color: var(--negro);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Efecto hover para los botones */
+.videoActions button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para imágenes dentro de las acciones */
+.videoActions img {
+    width: 25%;
+    /* Tamaño de imagen del 25% */
+    height: 25%;
+}
+
+/* Media query para tablets y móviles */
+@media (max-width: 768px) {
+    .videoCard {
+        width: 100%;
+        /* Ancho completo para pantallas pequeñas */
+    }
+}

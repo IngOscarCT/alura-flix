@@ -1,3 +1,18 @@
+:root{
+  --negro:#222;
+  --gris:#e2e2e2;
+  --blanco: #fff;
+  --luz: #3D7FFF;
+  --negroIntens: #0A0A23;
+  --negroNV: #191919;
+  --frontColor: #0BE5E5;
+  --backColor: #00C86F;
+  --DPColor: #FFBA05;
+  --BannerColor: #001233;
+  --navColor: #9747FF;
+  --azulIntens: #03122F;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +20,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

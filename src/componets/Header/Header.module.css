@@ -1,0 +1,68 @@
+/* Estilos para el encabezado */
+.header {
+    display: flex;
+    /* Usa flexbox para el diseño */
+    justify-content: space-between;
+    /* Distribuye el contenido a lo largo del eje principal */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    padding: 1.1em 1em;
+    /* Padding superior e inferior de 1.1em y padding horizontal de 1em para dispositivos móviles */
+    background-color: var(--negro);
+    /* Color de fondo usando una variable CSS */
+    border-bottom: 4px solid var(--luz);
+    /* Borde inferior de 4px con color definido por la variable CSS */
+}
+
+/* Estilo para los enlaces */
+.a {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado de los enlaces */
+}
+
+/* Contenedor del logo */
+.logoContainer {
+    height: 55px;
+    /* Altura del contenedor */
+    display: flex;
+    /* Usa flexbox para el diseño */
+    align-items: center;
+    /* Centra verticalmente los elementos dentro del contenedor */
+}
+
+/* Imagen del logo */
+.logoContainer img {
+    height: 40px;
+    /* Altura de la imagen del logo */
+    display: flex;
+    /* Usa flexbox para el diseño */
+    align-items: start;
+    /* Alinea la imagen al inicio dentro del contenedor */
+}
+
+/* Estilo para los enlaces en el header */
+.link {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado de los enlaces */
+    margin-right: 10px;
+    /* Margen derecho de 10px */
+    /* Puedes agregar más estilos según tus necesidades */
+}
+
+/* Media query para dispositivos móviles y tablets */
+@media (max-width: 768px) {
+    .header {
+        padding: 1.1em 0.5em;
+        /* Reduce el padding horizontal para dispositivos móviles */
+    }
+
+    .logoContainer img {
+        height: 30px;
+        /* Reduce el tamaño de la imagen del logo para dispositivos móviles */
+    }
+
+    .link {
+        font-size: 16px;
+        /* Reduce el tamaño de fuente de los enlaces para dispositivos móviles */
+    }
+}

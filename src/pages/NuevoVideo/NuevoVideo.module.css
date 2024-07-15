@@ -1,0 +1,245 @@
+/* Estilos generales de la página */
+.nuevoVideoPage {
+    background-color: var(--negroNV);
+    /* Color de fondo */
+    color: var(--blanco);
+    /* Color del texto */
+    min-height: 100vh;
+    /* Altura mínima de la página */
+    display: flex;
+    /* Usar flexbox */
+    flex-direction: column;
+    /* Flexión en columna */
+}
+
+/* Estilos para la sección principal */
+.mainSection {
+    width: 100%;
+    /* Ancho completo */
+    max-width: 1000px;
+    /* Ancho máximo */
+    margin: 0 auto;
+    /* Centrado horizontal */
+    padding: 20px;
+    /* Espaciado interno */
+}
+
+/* Estilo para el título principal */
+.mainSection h2 {
+    font-size: 2rem;
+    /* Tamaño del texto */
+    text-align: center;
+    /* Alineación centrada */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+/* Estilo para el texto secundario */
+.mainSection p {
+    font-size: 1.5rem;
+    /* Tamaño del texto */
+    text-align: center;
+    /* Alineación centrada */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+/* Estilo para el subtítulo del formulario */
+.mainSection h3 {
+    font-size: 1.5rem;
+    /* Tamaño del subtítulo */
+    align-self: flex-start;
+    /* Alineación a la izquierda */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+/* Estilos para los campos del formulario */
+.mainSection label {
+    font-size: 1.2rem;
+    /* Tamaño del texto de etiqueta */
+    margin-bottom: 5px;
+    /* Espacio inferior */
+    align-self: flex-start;
+    /* Alineación a la izquierda */
+}
+
+.mainSection input,
+.mainSection select,
+.mainSection textarea {
+    width: 100%;
+    /* Ancho completo */
+    height: 40px;
+    /* Altura fija */
+    background-color: var(--negroNV);
+    /* Color de fondo */
+    border: 1px solid var(--gris);
+    /* Borde */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    color: var(--blanco);
+    /* Color del texto */
+    padding: 10px;
+    /* Espaciado interno */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+/* Estilo para campos con error */
+.inputError {
+    border-color: red;
+    /* Borde rojo para indicar error */
+}
+
+/* Estilo para mensajes de error */
+.errorMessage {
+    color: red;
+    /* Texto rojo para mensajes de error */
+    font-size: 0.9rem;
+    /* Tamaño del texto */
+    margin-top: -10px;
+    /* Ajuste de margen */
+    margin-bottom: 10px;
+    /* Ajuste de margen */
+}
+
+/* Contenedor para agrupar inputs en una línea */
+.inputGroup {
+    display: flex;
+    /* Usar flexbox */
+    flex-wrap: wrap;
+    /* Permitir ajuste de línea */
+    justify-content: space-between;
+    /* Espacio entre elementos */
+    width: 100%;
+    /* Ancho completo */
+}
+
+/* Inputs dentro del inputGroup */
+.inputGroup input,
+.inputGroup select {
+    width: calc(50% - 5px);
+    /* Ancho del 50% menos un pequeño espacio */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+/* Estilos para los botones */
+.mainSection button {
+    background-color: var(--negroNV);
+    /* Color de fondo */
+    color: var(--blanco);
+    /* Color del texto */
+    border-color: var(--blanco);
+    /* Color del borde */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar */
+    margin-top: 10px;
+    /* Espacio superior */
+}
+
+/* Espacio entre los botones */
+.mainSection button+button {
+    margin-left: 10px;
+    /* Espacio a la izquierda del siguiente botón */
+}
+
+/* Estilos para el Footer */
+.Footer {
+    background-color: var(--negroNV);
+    /* Color de fondo */
+    color: var(--blanco);
+    /* Color del texto */
+    text-align: center;
+    /* Alineación centrada */
+    padding: 10px 0;
+    /* Espaciado interno */
+    width: 100%;
+    /* Ancho completo */
+    position: fixed;
+    /* Posición fija */
+    bottom: 0;
+    /* Alineado al fondo */
+}
+
+/* Ajuste para el contenido encima del Footer */
+.mainSection {
+    margin-bottom: 50px;
+    /* Ajuste para el espacio sobre el Footer */
+}
+
+/* Responsividad para tablets */
+@media (max-width: 1024px) {
+    .mainSection {
+        padding: 10px;
+        /* Ajuste de espaciado interno para tablets */
+    }
+
+    .mainSection h2 {
+        font-size: 1.8rem;
+        /* Tamaño de fuente ajustado para tablets */
+    }
+
+    .mainSection p {
+        font-size: 1.3rem;
+        /* Tamaño de fuente ajustado para tablets */
+    }
+
+    .mainSection h3 {
+        font-size: 1.3rem;
+        /* Tamaño de fuente ajustado para tablets */
+    }
+
+    .mainSection label {
+        font-size: 1rem;
+        /* Tamaño de fuente ajustado para tablets */
+    }
+
+    .mainSection input,
+    .mainSection select,
+    .mainSection textarea {
+        height: 35px;
+        /* Altura ajustada para tablets */
+        padding: 8px;
+        /* Ajuste de espaciado interno para tablets */
+    }
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .mainSection {
+        padding: 10px;
+        /* Ajuste de espaciado interno para móviles */
+    }
+
+    .mainSection h2 {
+        font-size: 1.6rem;
+        /* Tamaño de fuente ajustado para móviles */
+    }
+
+    .mainSection p {
+        font-size: 1.2rem;
+        /* Tamaño de fuente ajustado para móviles */
+    }
+
+    .mainSection h3 {
+        font-size: 1.2rem;
+        /* Tamaño de fuente ajustado para móviles */
+    }
+
+    .mainSection label {
+        font-size: 0.9rem;
+        /* Tamaño de fuente ajustado para móviles */
+    }
+
+    .mainSection input,
+    .mainSection select,
+    .mainSection textarea {
+        height: 30px;
+        /* Altura ajustada para móviles */
+        padding: 6px;
+        /* Ajuste de espaciado interno para móviles */
+    }
+}

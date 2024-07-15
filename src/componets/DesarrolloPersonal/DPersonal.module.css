@@ -1,0 +1,65 @@
+/* Estilos para el contenedor de la categoría */
+.category {
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    flex-direction: column;
+    /* Coloca los elementos hijos en una columna */
+    background-color: var(--negro);
+    /* Establece el color de fondo usando una variable CSS */
+    width: 100%;
+    /* El contenedor ocupa todo el ancho disponible */
+    padding: 20px;
+    /* Añade un padding de 20px alrededor del contenido */
+    box-sizing: border-box;
+    /* Incluye el padding y el borde en el tamaño total del elemento */
+}
+
+/* Estilos para el título de la categoría */
+.tituloCategoria {
+    width: 432px;
+    /* Ancho fijo de 432px */
+    height: 70px;
+    /* Altura fija de 70px */
+    border: 2px solid var(--DPColor);
+    /* Borde de 2px con el color definido por la variable CSS */
+    background-color: var(--DPColor);
+    /* Color de fondo usando una variable CSS */
+    border-radius: 8px;
+    /* Bordes redondeados con un radio de 8px */
+    color: var(--blanco);
+    /* Color del texto usando una variable CSS */
+    font-weight: bold;
+    /* Texto en negrita */
+    padding: 8px;
+    /* Espacio interno de 8px */
+    margin: 5px;
+    /* Margen de 5px alrededor del título */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-size: 42px;
+    /* Tamaño de la fuente de 42px */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .tituloCategoria {
+        width: 100%;
+        /* El título ocupa todo el ancho disponible */
+        font-size: 36px;
+        /* Tamaño de la fuente reducido a 36px */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .tituloCategoria {
+        width: 100%;
+        /* El título ocupa todo el ancho disponible */
+        font-size: 28px;
+        /* Tamaño de la fuente reducido a 28px */
+        height: auto;
+        /* Ajusta la altura automáticamente */
+        padding: 10px;
+        /* Padding ajustado a 10px */
+    }
+}

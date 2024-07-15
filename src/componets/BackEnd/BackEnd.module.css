@@ -1,0 +1,61 @@
+/* Estilos para la categoría */
+.category {
+    display: flex;
+    /* Utiliza flexbox para el diseño */
+    flex-direction: column;
+    /* Los elementos hijos se apilan en una columna */
+    background-color: var(--negro);
+    /* Fondo negro utilizando una variable CSS */
+    width: 100%;
+    /* El ancho es del 100% del contenedor padre */
+    padding: 20px;
+    /* Espaciado interno de 20px */
+    box-sizing: border-box;
+    /* Incluye el padding y el borde en el tamaño total del elemento */
+}
+
+/* Estilos para el título de la categoría */
+.tituloCategoria {
+    width: 432px;
+    /* Ancho fijo de 432px */
+    height: 70px;
+    /* Altura fija de 70px */
+    border: 2px solid var(--backColor);
+    /* Borde de 2px sólido con color de fondo definido por una variable CSS */
+    background-color: var(--backColor);
+    /* Fondo utilizando una variable CSS */
+    border-radius: 8px;
+    /* Bordes redondeados de 8px */
+    color: var(--blanco);
+    /* Color de texto blanco utilizando una variable CSS */
+    font-weight: bold;
+    /* Texto en negrita */
+    padding: 8px;
+    /* Espaciado interno de 8px */
+    margin: 5px;
+    /* Espaciado externo de 5px */
+    text-align: center;
+    /* Texto centrado horizontalmente */
+    font-size: 48px;
+    /* Tamaño de fuente de 48px */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .tituloCategoria {
+        width: 80%;
+        /* Ancho del 80% del contenedor padre */
+        font-size: 36px;
+        /* Tamaño de fuente de 36px */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .tituloCategoria {
+        width: 100%;
+        /* Ancho del 100% del contenedor padre */
+        font-size: 24px;
+        /* Tamaño de fuente de 24px */
+    }
+}

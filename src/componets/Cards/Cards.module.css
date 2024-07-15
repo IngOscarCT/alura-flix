@@ -1,0 +1,29 @@
+/* Contenedor para las cards */
+.cardsContainer {
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que las cards se envuelvan en múltiples líneas */
+    justify-content: space-between; /* Espacia uniformemente las cards, con más espacio entre ellas */
+    align-items: flex-start; /* Alinea las cards al inicio del contenedor */
+    gap: 20px; /* Espacio de 20px entre las cards */
+    margin: 20px 0; /* Margen superior e inferior de 20px */
+}
+
+/* Estilos para cada card de video */
+.videoCard {
+    width: calc(33.33% - 20px); /* Aproximadamente 33.33% del ancho, descontando los márgenes */
+    margin-bottom: 20px; /* Espacio inferior de 20px entre las cards */
+}
+
+/* Estilos responsivos para dispositivos tablet */
+@media (max-width: 768px) {
+    .cardsContainer {
+        justify-content: center; /* Centra las cards en dispositivos pequeños */
+    }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 480px) {
+    .videoCard {
+        width: calc(100% - 20px); /* Ancho del 100% menos los márgenes para móviles */
+    }
+}
